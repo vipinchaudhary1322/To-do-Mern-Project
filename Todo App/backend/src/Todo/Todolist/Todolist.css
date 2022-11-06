@@ -1,0 +1,125 @@
+.todolist{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+.todo-header{
+    height: 15vh;
+    border: 3.3px solid #b5e61d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.todo-header div{
+ margin-right: 20px;
+}
+.todo-content{
+    display: flex;
+    height: 83vh;
+}
+.sidebar{
+    width: 15vw;
+    background-color: #b5e61d;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar-top{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.sidebar-top .todolist{
+    color: rgb(42, 120, 229);
+    font-weight: 500;
+    font-size: 20px;
+}
+.sidebar-top .history{
+    font-weight: 500;
+    font-size: 17px;
+}
+ .sidebar-bottom{
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.addtodo {
+ display: flex;
+ justify-content: flex-end;
+}
+.addtodo div {
+    padding: 5px;
+    border: 3px solid rgb(181, 140, 220);
+    font-weight: 500;
+    color: rgb(181, 140, 220);
+    margin-top: 5px;
+    margin-right: 100px;
+}
+.main-table{
+    width: 100%;
+}
+.main-table table{
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+table td, table th {
+    border: 1px solid black;
+}
+table th {
+    padding: 10px 10px;
+    background-color: rgb(120, 120, 224);
+    color: white;
+}
+table {
+    border: 1px solid black;
+}
+button {
+    outline: none;
+    border: none;
+}
+td{
+    padding: 10px;
+}
+.addtodolist form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addtodolist form input{
+    padding: 5px;
+    background-color: #ddd9d9;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 20px;   
+}
+.addtodolist button {
+    padding: 5px;
+    background-color: rgb(126, 126, 246);
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+}
+.start {
+    padding: 3px;
+    background-color: rgb(122, 231, 103);
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+}
